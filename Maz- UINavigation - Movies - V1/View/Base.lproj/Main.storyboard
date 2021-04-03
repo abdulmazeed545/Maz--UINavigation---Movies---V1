@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1hM-XE-rXd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HollyWood-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HollyWood" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Maz__UINavigation___Movies___V1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HollyWood" id="pEx-xl-zmb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2084.057971014493" y="-115.17857142857142"/>
+        </scene>
+        <!--BollyWood-->
+        <scene sceneID="XdT-EB-b7L">
+            <objects>
+                <viewController storyboardIdentifier="BollyWood" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pU2-ez-U1X" customClass="BollyWoodViewController" customModule="Maz__UINavigation___Movies___V1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zkx-0B-XjS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JHK-CC-1LZ"/>
+                        <color key="backgroundColor" red="0.96089784263959388" green="0.40498079901610429" blue="0.31072361842485829" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="BollyWood" id="eJX-qY-Yqc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dbr-po-zS9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2083" y="-814"/>
+        </scene>
+        <!--Bolly Wood-->
+        <scene sceneID="3fy-93-akn">
+            <objects>
+                <viewController storyboardIdentifier="BollyWood1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cgh-1N-A38" customClass="BollyWood" customModule="Maz__UINavigation___Movies___V1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZOU-JB-oS2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fy2-3z-bqS"/>
+                        <color key="backgroundColor" red="1" green="0.53023673597871723" blue="0.48122545363829039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWR-xp-M2D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="248"/>
+        </scene>
+        <!--TollyWood-->
+        <scene sceneID="2n4-d6-BcQ">
+            <objects>
+                <viewController storyboardIdentifier="TollyWood" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Md2-33-6dW" customClass="TollyWoodViewController" customModule="Maz__UINavigation___Movies___V1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oiS-bb-c9b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mPy-Ne-2sn"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TollyWood" id="Snw-Xq-6iz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ii5-o4-J3u" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2084.057971014493" y="566.51785714285711"/>
+        </scene>
+        <!--Other-->
+        <scene sceneID="N88-rn-v7h">
+            <objects>
+                <viewController storyboardIdentifier="Other" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1Za-Yl-dxD" customClass="OtherViewController" customModule="Maz__UINavigation___Movies___V1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d4G-tJ-qOY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HQC-Ag-CXQ"/>
+                        <color key="backgroundColor" red="0.69716384493689887" green="1" blue="0.82140549780537275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Other" id="73q-gT-i5a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U7n-Ef-ZbQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2084" y="1249"/>
+        </scene>
+        <!--HollyWood-->
+        <scene sceneID="DIu-nD-ZZC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yIu-0S-3ae" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="HollyWood" image="restart" catalog="system" id="MBb-66-zbH">
+                        <color key="badgeColor" red="0.1151786368" green="0.97457964760000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dov-TS-Sv1">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="R0H-pl-dzy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bG-Nj-4KM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1173.913043478261" y="-115.17857142857142"/>
+        </scene>
+        <!--BollyWood-->
+        <scene sceneID="s1H-e5-Yva">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rhy-5Q-dfv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="BollyWood" image="memorychip" catalog="system" id="GvC-Zo-RXL">
+                        <color key="badgeColor" red="1" green="0.86580353379999997" blue="0.94020156489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PmM-2J-42q">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pU2-ez-U1X" kind="relationship" relationship="rootViewController" id="2gF-em-GfA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2l-jA-v1S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1209" y="-814"/>
+        </scene>
+        <!--TollyWood-->
+        <scene sceneID="j3d-35-dB1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="efB-vi-xbr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="TollyWood" image="video.badge.plus.fill" catalog="system" id="7rT-oC-Ere">
+                        <color key="badgeColor" red="1" green="0.7640423811" blue="0.81745887139999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hnr-2z-XiA">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Md2-33-6dW" kind="relationship" relationship="rootViewController" id="lXG-b8-yUe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B6L-FZ-TaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1173.913043478261" y="566.51785714285711"/>
+        </scene>
+        <!--Other-->
+        <scene sceneID="n2m-vX-A0O">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ux1-vk-43A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Other" image="video.bubble.left" catalog="system" id="GKY-sF-Nv7">
+                        <color key="badgeColor" red="0.69150898979999997" green="0.89554251269999996" blue="0.54058552940000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CR0-Y2-Jbo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1Za-Yl-dxD" kind="relationship" relationship="rootViewController" id="GuR-2P-Nb1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lzb-0J-S8H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1209" y="1274"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="sGf-MW-6ug">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1hM-XE-rXd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tyw-Zg-ywB">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yIu-0S-3ae" kind="relationship" relationship="viewControllers" id="VGI-Vd-oeR"/>
+                        <segue destination="Rhy-5Q-dfv" kind="relationship" relationship="viewControllers" id="6M6-lT-pf7"/>
+                        <segue destination="efB-vi-xbr" kind="relationship" relationship="viewControllers" id="jv1-WY-n3I"/>
+                        <segue destination="Ux1-vk-43A" kind="relationship" relationship="viewControllers" id="2d8-qf-RZO"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pp5-ZP-3Y4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154" y="-15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="memorychip" catalog="system" width="128" height="116"/>
+        <image name="restart" catalog="system" width="120" height="128"/>
+        <image name="video.badge.plus.fill" catalog="system" width="128" height="88"/>
+        <image name="video.bubble.left" catalog="system" width="128" height="110"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
